@@ -1,0 +1,11 @@
+static_library("motor_demo") {
+    sources = [
+        "motor_driver.c",
+        "motor_demo.c"
+    ]
+
+    include_dirs = [
+        "//base/iot_hardware/peripheral/interfaces/kits",
+        "//device/hisilicon/hispark_pegasus/sdk_liteos/include",
+    ]
+}
